@@ -1,9 +1,7 @@
-import './App.css';
-
+import { DashboardScreen } from "./screens/Dashboard";
 function App() {
   return (
-    <div>
-    </div>
+    <DashboardScreen/>
   );
 }
 
