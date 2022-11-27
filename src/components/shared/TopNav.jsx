@@ -7,7 +7,7 @@ export const TopNav = () => {
   return (
     <div className=" w-full flex flex-row h-[60px] ">
       <div className=" flex flex-row flex-1">
-        <div className=" w-[280px]  text-2xl font-black text-center pt-3 text-blueLight font-Roboto">TransMonitor</div>
+        <div className=" w-[260px]  text-2xl font-black text-center pt-3 text-blueLight font-Roboto">TransMonitor</div>
         <div className=' pl-10 pt-[18px] flex flex-row text-[#979797] space-x-3'>
           <Icon icon="fluent:search-20-regular" className=' text-[24px] text-[#0E1D25]' />
           <p>
@@ -17,7 +17,7 @@ export const TopNav = () => {
         </div>
       </div>
       <div className='  flex flex-row text-[#647787] pr-[70px] space-x-10  text-sm'>
-        <div className=' pt-5 flex flex-row space-x-10'>
+        <div className=' pt-5 flex flex-row space-x-12'>
           <p>
             <a href='/#'>Support</a>
           </p>
@@ -34,7 +34,7 @@ export const TopNav = () => {
         <div className=' flex flex-row pt-3 space-x-3 cursor-pointer'>
           <div className=' flex flex-col items-end'>
             <p className=' text-[10px] -mb-2'>Hello</p>
-            <p className=' text-sm'>Oluwaleke Ojo</p>
+            <p className=' text-sm '>Oluwaleke Ojo</p>
           </div>
           <p className='h-[40px] w-[40px] bg-gray-400 rounded-full'>
             <img alt="user img" src={UserImg}  className=" rounded-full w-full object-contain"/>
