@@ -16,7 +16,7 @@ export const TopNav = () => {
          </p>
         </div>
       </div>
-      <div className='  flex flex-row text-[#647787] pr-16 space-x-10  text-sm'>
+      <div className='  flex flex-row text-[#647787] pr-[70px] space-x-10  text-sm'>
         <div className=' pt-5 flex flex-row space-x-10'>
           <p>
             <a href='/#'>Support</a>
@@ -27,7 +27,7 @@ export const TopNav = () => {
         </div>
         <div className='relative pt-[22px] cursor-pointer'>
           <img alt="bell icon" src={BellIcon}  className=" w-5"/>
-          <p className=' absolute top-4 -right-1 flex flex-col justify-center bg-blue h-[15px] w-[15px] text-center rounded-full text-white text-[10px]'>
+          <p className=' absolute top-4 -right-1 flex flex-col justify-center bg-bluePrimary h-[15px] w-[15px] text-center rounded-full text-white text-[10px]'>
             2
           </p>
         </div>
