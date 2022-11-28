@@ -1,4 +1,5 @@
 import { TopNav } from "../components/shared/TopNav"
+import { SideNav } from "../components/shared/SideNav"
 
 export const AppLayout = (props) => {
   return (
@@ -8,14 +9,15 @@ export const AppLayout = (props) => {
       h-screen
       w-screen
       overflow-x-hidden
-      overflow-y-hidden'>
-      <div className=" w-full shadow">
+      overflow-y-hidden bg-bgMain'>
+      <div className=" w-full bg-white shadow-sm">
         <TopNav />
       </div>
-      <div className=' flex flex-row bg-offBlue h-full w-full mt-1'>
-        <div className='w-[280px]  overflow-y-auto h-screen bg-slate-500 '>
+      <div className=' flex flex-row bg-offBlue h-full w-full mt-[2px]'>
+        <div className='w-[260px]  overflow-y-auto h-screen  bg-white '>
+          <SideNav/>
         </div>
-        <div className=" flex-1 h-full overflow-y-auto bg-gray-400  px-10 pt-10 pb-20 mb-20">
+        <div className=" flex-1 h-full overflow-y-auto  px-10 pr-[70px] pt-7 pb-20 mb-20">
           {props.children}
         </div>
       </div>
