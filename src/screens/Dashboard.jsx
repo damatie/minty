@@ -54,9 +54,9 @@ export const DashboardScreen = () => {
               <p className=" text-lg font-Segoe-UI-Bold flex-1">Today: 5, Aug 2018</p>
               <div className=" flex flex-row space-x-3 ">
                 <Select label={'Pick date'}
-                  selectStyle={'text-[#7F8FA4]'}
-                  selectContainer={' border rounded-[4.25px] border-[#DDE0E3]  py-1'} list={['1 Jan - 1 Jun']} />
-                <div className=" flex flex-row mt-[5px] space-x-3">
+                  selectStyle={'text-black'}
+                  selectContainer={' border rounded-[4.25px] border-[#DDE0E3]  py-[2px]'} list={['1 Jan - 1 Jun']} />
+                <div className=" flex flex-row mt-[3px] space-x-3">
                   <button className=" border rounded-[4px] h-[23px] w-[30px]  justify-center flex flex-col items-center">
                     <Icon icon="material-symbols:arrow-back-ios-new" className=' text-[10px] text-[#CCCFD4]' />
                   </button>
