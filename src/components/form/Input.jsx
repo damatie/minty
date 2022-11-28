@@ -2,11 +2,12 @@ export const Input = ({
   type,
   placeholder = "Type text",
   InputStyle,
-  onCLick
+  onChange,
+  value
 }) => {
   return (
     <>
-      <input onCLick={onCLick} type={type} placeholder={placeholder}
+      <input onChange={onChange} type={type}  value={value} placeholder={placeholder}
         className={` w-full px-3 ${InputStyle}`} />
     </>
   )
