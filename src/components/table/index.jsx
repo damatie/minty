@@ -48,12 +48,12 @@ export const Table = ({
       <table className="table w-full  first:rounded-full ">
         <thead className=" first:rounded-full" >
           <tr className=" text-whiteGray first:rounded-full ">
-            <th className=" first:rounded-tl-[2px]  bg-tableHead text-sm capitalize">Item Type</th>
-            <th className="bg-tableHead text-sm capitalize">Price</th>
-            <th className="bg-tableHead text-sm capitalize">Transaction No</th>
-            <th className="bg-tableHead text-sm capitalize">Time</th>
-            <th className="bg-tableHead text-sm capitalize">Status</th>
-            <th className="last:rounded-tr-[2px] bg-tableHead"></th>
+            <th className="font-normal first:rounded-tl-[2px]  bg-tableHead text-sm capitalize">Item Type</th>
+            <th className=" font-normal bg-tableHead text-sm capitalize">Price</th>
+            <th className="font-normal bg-tableHead text-sm capitalize">Transaction No</th>
+            <th className="font-normal bg-tableHead text-sm capitalize">Time</th>
+            <th className="font-normal bg-tableHead text-sm capitalize">Status</th>
+            <th className="font-normal last:rounded-tr-[2px] bg-tableHead"></th>
           </tr>
         </thead>
         <tbody>
