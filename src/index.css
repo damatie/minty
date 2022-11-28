@@ -2,12 +2,74 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Font */
-@import url('https://fonts.cdnfonts.com/css/segoe-ui-4');
+/* Fonts */
+@font-face {
+  font-family: "Segoe-UI-Bold";
+  src: url("./assets/fonts/Segoe-UI-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Segoe-UI";
+  src: url("./assets/fonts/Segoe-UI.ttf");
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
 
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
+  font-weight: 700;
+}
+
+/* Pagination */
+.paginationBtns {
+  display: flex;
+  list-style: none;
+  justify-content: right;
+  margin-top: 0px;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.paginationBtns a {
+  display: inline-block;
+  border: #CED0DA solid 1px;
+  min-width: 40px;
+  padding: 4px 10px;
+  text-align: center;
+  margin: 0px;
+  color: gray;
+  border-radius: 2px;
+}
+
+.paginationBtns a:hover {
+  color: #1875F0;
+  background-color: #E5E5E5;
+}
+
+.paginationActive a {
+  color: white;
+  background-color: #1875F0;
+}
+.paginationActive a:hover {
+  color: white;
+  background-color: #1875F0;
+}
+.previousLinkClassName a {
+  padding: 20px !important;
+  color:black;
+  background-color: #CED0DA;
+}
+
+
+.paginationDisabled a {
+  color: black;
+  background-color:#E5E5E5;
+  cursor: not-allowed;
+}
+.paginationDisabled a:hover {
+  color: black;
+  background-color: #E5E5E5;
+  cursor: not-allowed;
 }
 
