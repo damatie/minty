@@ -1,6 +1,5 @@
 import { Icon } from '@iconify/react';
-import { setSelectionRange } from '@testing-library/user-event/dist/utils';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import ReactPaginate from 'react-paginate';
 import { ToolsBar } from './ToolsBar';
  
@@ -15,13 +14,17 @@ export const Table = ({
   const pageCount = Math.ceil(items.length / tableDataPerPage);
   const [query, setQuery] = useState('')
  
-  const handleSearch = (value) => {
-    if (value === 'all') {
-       setQuery('')
-    }
-    setQuery(value)
-  }
+  // const handleSearch = (value) => {
+  //   if (value === 'all') {
+  //      setQuery('')
+  //   }
+  //   setQuery(value)
+  // }
 
+  useEffect(() => {
+  setTableDataPerPage(10)
+  }, [])
+  
   const changePage = ({selected}) => {
     setPageNumber(selected);
 
