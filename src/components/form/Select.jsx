@@ -8,7 +8,7 @@ export const Select = ({
 }) => {
   return (
     <>
-     <span className={`cursor-pointer   flex py-2 text-sm text-dark border-gray-400 ${selectContainer}`}>
+     <span className={`cursor-pointer   flex  text-sm text-dark border-gray-400 ${selectContainer}`}>
           <select onChange={onChange} className={`capitalize text-sm   outline-none border-0 ${selectStyle}`}>
             <option value='' className=" ">{label}</option>
               {list&&list.map((item, index) => (

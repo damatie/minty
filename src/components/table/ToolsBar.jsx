@@ -44,7 +44,7 @@ export const ToolsBar = ({
             list={['reconcilled','settled','unsettled']}
             label={'all'}
             selectStyle={'px-0 bg-bgMain text-[#414042] px-1.5 w-[150px]'}
-            selectContainer={'border border-[#CED0DA]  w-[150px]  '}
+            selectContainer={'border border-[#CED0DA]  w-[150px] py-2 '}
           />
         </div>
       </div>
